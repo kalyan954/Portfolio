@@ -1,20 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Portfolio from './Components/Portfolio';
+import './styles.css'; // Optional: for your global styles
 
-
-
-import "./App.css"
-import FormExample from './FormExample'
-
-
-const App = () => {
+function App() {
   return (
-    <div className='contain'>
-      <h1>Welcome to React
-      </h1>
-
-   <FormExample />
+    <div>
+      <Portfolio />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
